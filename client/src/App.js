@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -14,9 +11,9 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>React + Node App</h1>
-      <p>Backend says: {msg}</p>
+    <div style={{ padding: '2rem' }}>
+      <h1>Student Project Hosting Platform</h1>
+      <p>Backend says: <strong>{msg}</strong></p>
     </div>
   );
 }
