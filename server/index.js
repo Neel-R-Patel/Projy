@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello backend!');
+  res.send('Hello From backend!');
 });
 
 app.listen(5000, () => {
